@@ -1,0 +1,25 @@
+.red
+{
+	background:red; 
+	width: 99%; 
+	height:100px; 
+	border-radius:5px; 
+	margin:5px; 
+	color:white; 
+	font-size:50px; 
+	line-height:100px; 
+	text-align: center;
+}
+		
+.blue
+{
+	background:blue; 
+	width: 99%; 
+	height:400px; 
+	border-radius:5px; 
+	margin:5px; 
+	color:white; 
+	font-size:50px; 
+	line-height:100px; 
+	text-align:center;
+}

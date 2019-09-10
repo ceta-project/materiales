@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejemplo9-form</title>
+
+  </head>
+  <body>
+	<form method="get" action="procesar.php">
+  	<br/>Ingresar<br/>
+	<input type="text" name="nombre" size="40" placeholder="ingrese su nombre"><br/>
+	<input type="password" name="pwd" minlength="6" maxlength="10" placeholder="ingrese su password">
+	
+	<hr/>
+	<br/>Sexo<br/>
+	Masculino:<input type="radio" name="sexo" value="m">
+	Femenino:<input type="radio" name="sexo" value="f">
+	
+	<hr/>
+	<br/>Intereses<br/>
+	HTML:<input type="checkbox" name="html"><br/>
+	CSS:<input type="checkbox" name="css"><br/>
+	JS:<input type="checkbox" name="js"><br/>
+
+	<hr/>
+	Seleccione
+	<br/>
+	<select name="marca">
+	<option value="">Seleccione</option>
+	<option value="volvo">Volvo</option>
+	<option value="bmw">bmw</option>
+	</select>
+	<hr/>
+	<textarea rows="4" cols="50" name="comment">
+	Escribe un comentario aquí
+	</textarea>
+
+	<hr/>
+	<br/>Botones<br/>
+	<input type="hidden" name="mi_oculto" value="123456"><br/>
+	<input type="button" name="mi_boton" value="click me!!"><br/>
+	<input type="submit" name="mi_submit" value="Enviar"><br/>
+	
+	</form>
+	
+  </body>
+</html>
